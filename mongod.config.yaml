@@ -1,0 +1,11 @@
+systemLog:
+    destination: file
+    path: "C:\wamp64\www\Coding Test for Kevin Zeng\CodingTest_MEAN_JS\log\mongo.log"
+    logAppend: true
+storage:
+    dbPath: "C:\wamp64\www\Coding Test for Kevin Zeng\CodingTest_MEAN_JS\data\db"
+    journal:
+        enabled: true
+net:
+    bindIp: 127.0.0.1
+    port: 27017
